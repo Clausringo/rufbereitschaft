@@ -1,0 +1,17 @@
+RUFBEREITSCHAFT – iPhone-PWA V6
+
+1. GitHub-Konto auf github.com erstellen (falls noch nicht vorhanden).
+2. Neues Repository anlegen, z. B. rufbereitschaft. Es muss für GitHub Pages im kostenlosen Tarif öffentlich sein.
+3. Alle Dateien aus diesem Ordner in das Stammverzeichnis des Repositorys hochladen (nicht die ZIP-Datei).
+4. Unter Settings > Pages: Deploy from a branch, Branch main, Folder /(root) wählen und speichern.
+5. Nach der Veröffentlichung die angezeigte HTTPS-Adresse in Safari auf dem iPhone öffnen.
+6. Safari: Teilen > Zum Home-Bildschirm > Hinzufügen.
+7. Mit TESTDATEN prüfen: Start, Stopp, Telefonat, Datensicherung, Wiederherstellung, Offline-Start.
+
+WICHTIG
+- Die App-Oberfläche ist öffentlich erreichbar, aber persönliche Einträge werden in dieser Version nur lokal im Browser/App-Speicher des jeweiligen Geräts gespeichert.
+- Home-Bildschirm-App und Safari können getrennte Datenspeicher besitzen. Bestehende V5-Daten werden daher nicht automatisch übernommen: V5-Sicherung exportieren und in V6 importieren.
+- Keine Patientendaten erfassen. Dienstliche Telefonnummern können vertraulich sein; vor produktiver Verwendung Klinik-IT/Datenschutz klären.
+- Bei gelöschten Website-Daten, Neuinstallation oder Geräteverlust können Einträge verloren gehen. Regelmäßig JSON-Datensicherung erstellen und sicher aufbewahren.
+- Eine PWA benötigt zum ersten Laden Internet; nach erfolgreichem Laden kann sie mit dem Service Worker offline funktionieren.
+- Dies ist ein Prototyp, kein geprüftes Zeiterfassungs- oder Abrechnungssystem. Excel-Vorlagenexport ist noch nicht implementiert.
